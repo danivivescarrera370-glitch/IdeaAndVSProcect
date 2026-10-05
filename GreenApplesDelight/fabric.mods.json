@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "greenappledelight",
+  "version": "1.0.0",
+  "name": "Green Apple Delight",
+  "description": "Adds Farmer's Delight compatibility for green apples on 1.21.1!",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/greendelight/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.example.greendelight.GreenDelight"
+    ]
+  },
+  "mixins": [
+    "greendelight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "fabric-api": ">=0.100.0",
+    "farmersdelight": ">=1.21.1-2.4.0"
+  }
+}
